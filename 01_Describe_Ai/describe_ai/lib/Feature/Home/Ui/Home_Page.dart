@@ -84,7 +84,7 @@ class _Home_PageState extends State<Home_Page> {
 
               const SizedBox(height: 20),
 
-              // Description or Loader//
+              // Description or Loader
               Expanded(
                 child: Container(
                   width: double.infinity,

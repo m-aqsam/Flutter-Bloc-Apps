@@ -17,6 +17,7 @@ class ImageAnalyzed extends HomeState {
   ImageAnalyzed(this.description);
 }
 
+//
 class ImageError extends HomeState {
   final String message;
   ImageError(this.message);

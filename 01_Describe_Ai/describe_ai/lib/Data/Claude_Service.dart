@@ -12,7 +12,7 @@ class ClaudeService {
       final bytes = await image.readAsBytes();
       final base64Image = base64Encode(bytes);
 
-      // API Request Body
+      // API Request Body//
       final requestBody = jsonEncode({
         'model': 'claude-3-opus-20240229',
         'max_tokens': 200,

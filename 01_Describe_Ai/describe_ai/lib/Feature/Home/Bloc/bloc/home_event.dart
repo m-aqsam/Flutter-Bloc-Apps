@@ -14,3 +14,4 @@ class AnalyzeImageEvent extends HomeEvent {
 
   AnalyzeImageEvent(this.image);
 }
+//

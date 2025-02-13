@@ -32,7 +32,6 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       emit(ImageError('Failed to pick image: $e'));
     }
   }
-  //
 
   Future<void> _onAnalyzeImage(
       AnalyzeImageEvent event, Emitter<HomeState> emit) async {

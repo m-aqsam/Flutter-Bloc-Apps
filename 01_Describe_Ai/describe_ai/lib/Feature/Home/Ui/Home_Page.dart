@@ -22,7 +22,9 @@ class _Home_PageState extends State<Home_Page> {
     return Scaffold(
       backgroundColor: Colors.grey.shade200,
       appBar: AppBar(
-        backgroundColor: Colors.deepPurple.shade200,
+        //backgroundColor: Colors.deepPurple.shade200,
+        backgroundColor: Colors.green,
+
         title: Center(
           child: Text('D E S C R I B E   A I'),
         ),
@@ -55,7 +57,7 @@ class _Home_PageState extends State<Home_Page> {
               Container(
                 height: 300,
                 decoration: BoxDecoration(
-                  color: Colors.grey.shade400,
+                  color: const Color.fromARGB(255, 215, 213, 213),
                 ),
                 child: selectedImage != null
                     ? Image.file(selectedImage!,
@@ -72,11 +74,19 @@ class _Home_PageState extends State<Home_Page> {
                   ElevatedButton(
                     onPressed: () =>
                         homeBloc.add(PickImageEvent(ImageSource.camera)),
+                    style: ElevatedButton.styleFrom(
+                      foregroundColor: Colors.white, // Text color
+                      backgroundColor: Colors.green, // Button color
+                    ),
                     child: const Text('Take Photo'),
                   ),
                   ElevatedButton(
                     onPressed: () =>
                         homeBloc.add(PickImageEvent(ImageSource.gallery)),
+                    style: ElevatedButton.styleFrom(
+                      foregroundColor: Colors.white, // Text color
+                      backgroundColor: Colors.green, // Button color
+                    ),
                     child: const Text('Pick From Gallery'),
                   ),
                 ],

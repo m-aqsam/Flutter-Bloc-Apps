@@ -21,4 +21,3 @@ class ImageError extends HomeState {
   final String message;
   ImageError(this.message);
 }
-//

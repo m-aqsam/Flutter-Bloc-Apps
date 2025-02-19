@@ -42,7 +42,5 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     } catch (e) {
       emit(ImageError('Failed to analyze image: $e'));
     }
-
-    //
   }
 }

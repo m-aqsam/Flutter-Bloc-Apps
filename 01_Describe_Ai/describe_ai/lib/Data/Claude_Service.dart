@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 
 class ClaudeService {
   final String _baseurl = 'https://api.anthropic.com/v1/messages';
-  final String _apikey = "YOUR_API_KEY"; // Keep it secure!.
+  final String _apikey = "YOUR_API_KEY"; // Keep it secure!
 
   Future<String> analyzeImage(File image) async {
     try {

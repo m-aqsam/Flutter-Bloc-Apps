@@ -3,5 +3,9 @@ flutter_native_splash:
   ios: true
   web: false
 
+  color: "#42a5f5"
+  image: assets/images/Describe_Ai.png
+
   android_12:
-    color: "#D7D5D5"
+    color: "#42a5f5"
+    image: assets/images/Describe_Ai.png

@@ -7,7 +7,7 @@ void main() {
   runApp(const MyApp());
 }
 
-// * Built using Flutter with ❤️ by Aqsam.
+// * Built using Flutter with ❤️ by Aqsam..
 // ! Give Your Feedback
 // ? Got any question
 // Todo: Let's Connect
